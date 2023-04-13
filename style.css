@@ -8,6 +8,7 @@
     height: 100%;
     place-items: center;  
     background: #000000;
+    font-family: 'Times New Roman';
   }
   .wrapper{
     height: 100px;  
