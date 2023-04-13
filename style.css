@@ -4,15 +4,15 @@
   }
   
   html,body{
+    box-sizing: border-box;
     display: grid;
     height: 100%;
     place-items: center;  
     background: #000000;
-    font-family: 'Times New Roman';
   }
   .wrapper{
-    height: 100px;  
-    width: 360px; 
+    height: 155px;  
+    width: 630px; 
     position: relative;  
     background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);  
     border-radius: 10px;  
@@ -27,16 +27,16 @@
   }
   .wrapper .display{ 
     z-index: 999; 
-    height: 85px;
-    width: 345px;
+    height: 135px;
+    width: 590px;
     background: #000000;
     border-radius: 6px;
     text-align: center;
   } 
   .display #time{
-    line-height: 85px;
+    line-height: 135px;
     color: #fff;
-    font-size: 50px;
+    font-size: 100px;
     font-weight: 600;
     letter-spacing: 1px;
     background: linear-gradient(135deg, #14ffe9, #3bff5f, #ff00e0);
