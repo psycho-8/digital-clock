@@ -8,7 +8,7 @@
     display: grid;
     height: 100%;
     place-items: center;  
-    background: rgb(24, 14, 27);
+    background: linear-gradient(135deg, #000000, #e400f3, #000000);
   }
   .wrapper{
     height: 155px;  
@@ -39,7 +39,7 @@
     font-size: 90px;
     font-weight: 600;
     letter-spacing: 1px;
-    background: linear-gradient(135deg, #D21312, #2F58CD, #16FF00);
+    background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: animate 1.5s linear infinite;
